@@ -1,0 +1,12 @@
+{
+  "name": "web-react",
+  "version": "0.0.1",
+  "description": "Web stuff with React",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:ivanwills/web-react.git",
+    "type": "git"
+  },
+  "author": "Ivan Wills",
+  "license": "MIT"
+}
