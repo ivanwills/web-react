@@ -1,14 +1,20 @@
---- 
+---
 count: 8
-default: 
+default:
+  env:
+    MANPATH: "/home/dev/.nvm/v6.9.1/share/man:"
+    NVM_BIN: /home/dev/.nvm/v6.9.1/bin
+    NVM_PATH: /home/dev/.nvm/v6.9.1/lib/node
+    PATH: /home/dev/.nvm/v6.9.1/bin:./node_modules/.bin:$PATH
+    http_proxy: ''
   restart: 0
   wait: 0
-editor: 
-  files: 
-    eg: 
+editor:
+  files:
+    eg:
       - some-file.eg
 name: web-react
-terminals: 
+terminals:
   2: []
 
   3: []
